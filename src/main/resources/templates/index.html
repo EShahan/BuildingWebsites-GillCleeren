@@ -6,14 +6,15 @@
     <meta name="author" content="Bethany's Pie Shop">
     <meta name="description" content="Store front for Bethany's Pie Shop">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link th:href="@{/styles.css}" rel="stylesheet">
 
 
 </head>
-<body style="background-color:#fef6f5;font-family:verdana;">
-    <h1 style="font-family:verdana;font-weight:bold;color:#c87d52">Welcome to Bethany's Pie Shop!</h1>
+<body>
+    <h1>Welcome to Bethany's Pie Shop!</h1>
 
     <h2>Our history</h2>
-    <p style="font-family:verdana;font-weight:bold;color:#c87d52;">
+    <p>
         Welcome to Bethany's Pie Shop, where pie-baking perfection meets convenience!
         For countless years, Bethany's passion for crafting the most scrumptious pies has been an unmatched delight.
         Our journey began in 2013 when we unveiled our first charming store in the heart of Brussels (Belgium),
@@ -47,7 +48,7 @@
     </p>
 
     <hr>
-    <h3 style="font-family:verdana;">Our weekly promotions</h3>
+    <h3 id="promo-header">Our weekly promotions</h3>
     <h4>Cheese cake</h4>
     $12.95 - serves 4<br>
     <img th:src="@{/Images/cheesecake.jpg}" alt="Cheese cake with strawberry" width="500" height="300">

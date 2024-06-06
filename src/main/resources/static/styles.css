@@ -1,0 +1,86 @@
+body {
+    background-color: #fef6f5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: WorkSansBold;
+    src: url(fonts/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: WorkSansRegular;
+    src: url(fonts/WorkSans-Regular.ttf)
+}
+
+h1 {
+    font-size: 2em;
+    font-family: WorkSansBold;
+    color:#c87d52
+
+}
+
+h2,
+h3,
+h4 {
+    font-family: WorkSansRegular
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+#promo-header {
+    font-family: WorkSansBold;
+    text-transform: uppercase;
+}
+
+
+
+/* PRACTICE FOR PLAYGROUND
+
+h1 {
+    font-family:verdana;
+    font-weight:bold;
+    color:#c87d52
+
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#promo {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+.intro-text{
+    font-size: small;
+}
+
+.intro-text h3 {
+    font-size: 20px;
+    color: #c87d52;
+}
+
+a:link {
+    color: #c87d52
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: #c87d52
+}
+
+a:active {
+    color: lightcoral;
+}
+
+.main-content > p {
+    background-color: #c87d52
+} */

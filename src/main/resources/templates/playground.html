@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org/">
+
+<head>
+    <title>Playground</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Bethany's Pie Shop">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link th:href="@{/styles.css}" rel="stylesheet">
+
+</head>
+
+<body>
+<h1>Welcome to Bethany's Pie Shop</h1>
+<h2>The best pies in the world!</h2>
+<div id="promo">Only this week: Apple pie at 50% off</div>
+<div class="intro-text">Welcome to <b>Bethany's Pie Shop</b>, where pie-baking perfection meets convenience!
+    <h3>Our history</h3>
+    For countless years, Bethany's passion for crafting the most scrumptious pies has been an unmatched delight. Our
+    journey began in 2013 when we
+    unveiled our first charming store in the heart of Brussels (Belgium), nestled in a cozy little street near the
+    illustrious Grand Market.
+    <a th:href=@{/}>Take a look at our history page.</a>
+</div>
+<div class="main-content">
+    <div class="separator">
+        <p>
+            It was here that our pies first captured the hearts and taste buds of people from every corner of the
+            globe, from delectable soft cakes to heavenly cheesecakes and tantalizingly spiced apple
+            pies. <i>Our store's extraordinary success was nothing short of a culinary fairy tale.</i>
+            As the demand for Bethany's divine creations soared, an incredible milestone was reached in 2015, when
+            we
+            proudly sold an astonishing 100 pies each day! Naturally, our beloved Pie Shop had to evolve, and we
+            relocated
+            to a grander, more spacious building to better serve our cherished patrons. The love and support we
+            received
+            from our ever-growing community inspired us to explore new possibilities.
+        </p>
+    </div>
+</div>
+</body>
+
+</html>
