@@ -10,49 +10,67 @@
 
 
 </head>
-<body>
-    <h1>Welcome to Bethany's Pie Shop!</h1>
+    <body>
+        <div id="wrapper">
+            <header id="main-header">
+                <nav>Navigation Goes Here</nav>
+            </header>
+            <div id="main-content">
+                <aside id="left-menu">
+                    <header>
+                        <p class="aside-header">Browse our pies</p>
+                    </header>
+                </aside>
+                <main id="main">
+                    <article>
+                        <header><h1>Welcome to Bethany's Pie Shop!</h1></header>
+                        <h2>Our history</h2>
+                        <p>
+                            Welcome to Bethany's Pie Shop, where pie-baking perfection meets convenience!
+                            For countless years, Bethany's passion for crafting the most scrumptious pies has been an unmatched delight.
+                            Our journey began in 2013 when we unveiled our first charming store in the heart of Brussels (Belgium),
+                            nestled in a cozy little street near the illustrious Grand Market.
+                            It was here that our pies first captured the hearts and taste buds of people from every corner of the globe,
+                            from delectable soft cakes to heavenly cheesecakes and tantalizingly spiced apple pies.
+                            Our store's extraordinary success was nothing short of a culinary fairy tale.
+                        </p>
 
-    <h2>Our history</h2>
-    <p>
-        Welcome to Bethany's Pie Shop, where pie-baking perfection meets convenience!
-        For countless years, Bethany's passion for crafting the most scrumptious pies has been an unmatched delight.
-        Our journey began in 2013 when we unveiled our first charming store in the heart of Brussels (Belgium),
-        nestled in a cozy little street near the illustrious Grand Market.
-        It was here that our pies first captured the hearts and taste buds of people from every corner of the globe,
-        from delectable soft cakes to heavenly cheesecakes and tantalizingly spiced apple pies.
-        Our store's extraordinary success was nothing short of a culinary fairy tale.
-    </p>
+                        <p>
+                            As the demand for Bethany's divine creations soared, an incredible milestone was reached in 2015,
+                            when we proudly sold an astonishing 100 pies each day! Naturally, our beloved pie Shop had to evolve,
+                            and we relocated to a grander, more spacious building to better serve our cherished patrons.
+                            The love and support we received from our ever-growing community inspired us to explore new possibilities.
+                        </p>
 
-        <p>
-            As the demand for Bethany's divine creations soared, an incredible milestone was reached in 2015,
-            when we proudly sold an astonishing 100 pies each day! Naturally, our beloved pie Shop had to evolve,
-            and we relocated to a grander, more spacious building to better serve our cherished patrons.
-            The love and support we received from our ever-growing community inspired us to explore new possibilities.
-        </p>
+                        <p>
+                            In response to numerous heartfelt requests from pie-enthusiasts far and wide,
+                            we knew the time had come to bring our mouthwatering treats to your doorstep.
+                            Thus, in 2023, the idea of our very own webstore was born
+                            - a virtual haven where you can now relish the delight
+                            of ordering Bethany's scrumptious pies from the comfort of your own home,
+                            no matter where you reside in the world.
+                        </p>
 
-        <p>
-            In response to numerous heartfelt requests from pie-enthusiasts far and wide,
-            we knew the time had come to bring our mouthwatering treats to your doorstep.
-            Thus, in 2023, the idea of our very own webstore was born
-            - a virtual haven where you can now relish the delight
-            of ordering Bethany's scrumptious pies from the comfort of your own home,
-            no matter where you reside in the world.
-        </p>
-
-    <p>
-        What sets us apart, you ask? at Bethany's Pie Shop, we believe in using only the finest,
-        handpicked ingredients to create each and every masterpiece.
-        We meticulously source the freshest fruits, creamiest cheeses,
-        and most aromatic spices to ensure that every bite of our pie is an unrivaled, tantalizing experience.
-    </p>
-
-    <hr>
-    <h3 id="promo-header">Our weekly promotions</h3>
-    <h4>Cheese cake</h4>
-    $12.95 - serves 4<br>
-    <img th:src="@{/Images/cheesecake.jpg}" alt="Cheese cake with strawberry" width="500" height="300">
-
-    <p><small>2023 Bethany's Pie Shop - All rights reserved</small></p>
-</body>
+                        <p>
+                            What sets us apart, you ask? at Bethany's Pie Shop, we believe in using only the finest,
+                            handpicked ingredients to create each and every masterpiece.
+                            We meticulously source the freshest fruits, creamiest cheeses,
+                            and most aromatic spices to ensure that every bite of our pie is an unrivaled, tantalizing experience.
+                        </p>
+                    </article>
+                    <section id="promos">
+                        <h3 id="promo-header">Our weekly promotions</h3>
+                        <h4>Cheese cake</h4>
+                        $12.95 - serves 4<br>
+                        <img th:src="@{/Images/cheesecake.jpg}" alt="Cheese cake with strawberry" width="500" height="300">
+                    </section>
+                </main>
+            </div>
+        </div>
+    <footer>
+        <p><small>2023 Bethany's Pie Shop - All rights reserved</small></p>
+        <p>Our address is</p>
+        <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address>
+    </footer>
+    </body>
 </html>

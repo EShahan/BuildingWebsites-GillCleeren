@@ -1,6 +1,10 @@
 body {
     background-color: #fef6f5;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @font-face {
@@ -11,6 +15,13 @@ body {
 @font-face {
     font-family: WorkSansRegular;
     src: url(fonts/WorkSans-Regular.ttf)
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 h1 {
@@ -35,8 +46,41 @@ h2 {
     text-transform: uppercase;
 }
 
+#main-header {
+    background-color: #c87d52
+}
 
+nav {
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto 10px;
+}
 
+#main-content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left-menu {
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+#main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #ffd0c9;
+    padding: 30px;
+}
 /* PRACTICE FOR PLAYGROUND
 
 h1 {
