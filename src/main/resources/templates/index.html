@@ -7,16 +7,21 @@
     <meta name="description" content="Store front for Bethany's Pie Shop">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link th:href="@{/styles.css}" rel="stylesheet">
+    <link rel="icon" type="image/png" th:href="@{/Images/favicon.png}">
 
 
 </head>
     <body>
         <div id="wrapper">
             <header id="main-header">
-                <nav>Navigation Goes Here</nav>
+                <nav>
+                    <img th:src="@{/Images/logos/bethany-horizontal-logo.png}" class="menu-logo"/>
+                    Navigation Goes Here
+                </nav>
             </header>
             <div id="main-content">
                 <aside id="left-menu">
+                    <img th:src="@{/Images/logos/bethany-badge-logo.png}" width="150px"/>
                     <header>
                         <p class="aside-header">Browse our pies</p>
                     </header>
@@ -24,6 +29,7 @@
                 <main id="main">
                     <article>
                         <header><h1>Welcome to Bethany's Pie Shop!</h1></header>
+                        <img th:src="@{/Images/hero.jpg}" width="100%" alt="A delicious blueberry pie"/>
                         <h2>Our history</h2>
                         <p>
                             Welcome to Bethany's Pie Shop, where pie-baking perfection meets convenience!
@@ -32,7 +38,11 @@
                             nestled in a cozy little street near the illustrious Grand Market.
                             It was here that our pies first captured the hearts and taste buds of people from every corner of the globe,
                             from delectable soft cakes to heavenly cheesecakes and tantalizingly spiced apple pies.
-                            Our store's extraordinary success was nothing short of a culinary fairy tale.
+                            <i>Our store's extraordinary success was nothing short of a culinary fairy tale.</i>
+                            <figure>
+                                <img th:src="@{/Images/bethany.jpg}" width="100%" alt="Bethany in her pie shop"/>
+                                <figcaption>Bethany from Bethany's Pie Shop</figcaption>
+                            </figure>
                         </p>
 
                         <p>
@@ -60,9 +70,10 @@
                     </article>
                     <section id="promos">
                         <h3 id="promo-header">Our weekly promotions</h3>
-                        <h4>Cheese cake</h4>
+                        <h4>Pecan Pie</h4>
                         $12.95 - serves 4<br>
-                        <img th:src="@{/Images/cheesecake.jpg}" alt="Cheese cake with strawberry" width="500" height="300">
+<!--                        <img th:src="@{/Images/cheesecake.jpg}" alt="Cheese cake with strawberry" width="500" height="300">-->
+                        <img src="https://gillcleerenpluralsight.blob.core.windows.net/files/pecan-pie.jpg" width="500"/>
                     </section>
                 </main>
             </div>
