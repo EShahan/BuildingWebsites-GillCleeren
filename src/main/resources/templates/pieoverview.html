@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Bethany's Pie Shop</title>
+    <meta name="author" content="Bethany's Pie Shop">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link th:href="@{/styles.css}" rel="stylesheet">
+    <link rel="icon" type="image/png" th:href="@{/Images/favicon.png}">
+
+
+</head>
+<body>
+<div id="wrapper">
+    <header id="main-header">
+        <nav>
+            <img th:src="@{/Images/logos/bethany-horizontal-logo.png}" class="menu-logo"/>
+            Navigation Goes Here
+        </nav>
+    </header>
+    <div id="main-content">
+        <aside id="left-menu">
+            <img th:src="@{/Images/logos/bethany-badge-logo.png}" width="150px"/>
+            <header>
+                <p class="aside-header">Browse our pies</p>
+            </header>
+        </aside>
+        <main id="main">
+            <header>
+                <h1 class="page-header-small">Our selection of pies</h1>
+            </header>
+
+            <table>
+                <caption>
+                    <p>Current selection of pies</p>
+                </caption>
+                <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Pie name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Details</th>
+                </tr>
+                </thead>
+<!--                <tr>-->
+<!--                    <td colspan="5">Here are the pies of Bethany</td>-->
+<!--                </tr>-->
+                <tbody>
+                    <tr>
+                        <td><img th:src="@{/Images/products/cheesecakes/cheesecake-small.jpg}" width="100"></td>
+                        <td>Cheese cake</td>
+                        <td>Plain cheese cake. Plain pleasure.</td>
+                        <td>$12.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/fruitpies/apple-pie-small.jpg}" width="100"></td>
+                        <td>Apple pie</td>
+                        <td>Our famous apple pie</td>
+                        <td>$14.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/Seasonal/cranberry-pie-small.jpg}" width="100"></td>
+                        <td>Cranberry pie</td>
+                        <td>A Christmas favorite</td>
+                        <td>$18.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/fruitpies/cherry-pie-small.jpg}" width="100"></td>
+                        <td>Cherry pie</td>
+                        <td>A summer classic!</td>
+                        <td>$18.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/fruitpies/peach-pie-small.jpg}" width="100"></td>
+                        <td>Peach pie</td>
+                        <td>Sweet as peach</td>
+                        <td>$18.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/Seasonal/pumpkin-pie-small.jpg}" width="100"></td>
+                        <td>Pumpkin pie</td>
+                        <td>Our Halloween favorite</td>
+                        <td>$18.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/Seasonal/christmas-applepie-small.jpg}" width="100"></td>
+                        <td>Christmas apple pie</td>
+                        <td>Happy holidays with this pie!</td>
+                        <td>$19.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/cheesecakes/blue-berry-cheesecake-small.jpg}" width="100"></td>
+                        <td>Blueberry cheese cake</td>
+                        <td>You'll love it!</td>
+                        <td>$17.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/cheesecakes/chocolate-cheesecake-small.jpg}" width="100"></td>
+                        <td>Chocolate Cheese Cake</td>
+                        <td>With extra Belgian chocolate!</td>
+                        <td>$22.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/fruitpies/rhubarb-pie-small.jpg}" width="100"></td>
+                        <td>Rhubarb Pie</td>
+                        <td>My God, so sweet!</td>
+                        <td>$21.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/fruitpies/strawberry-pie-small.jpg}" width="100"></td>
+                        <td>Strawberry Pie</td>
+                        <td>Our delicious strawberry pie!</td>
+                        <td>$18.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/cheesecakes/strawberry-cheesecake-small.jpg}" width="100"></td>
+                        <td>Strawberry Cheese Cake</td>
+                        <td>One of the best cheese cakes you'll ever find!</td>
+                        <td>$18.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/cheesecakes/caramel-popcorn-cheesecake.jpg}" width="100"></td>
+                        <td>Caramel Popcorn Cheese Cake</td>
+                        <td>We thought it wouldn't be possible but it worked!</td>
+                        <td>$22.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/cheesecakes/pistache-cheesecake-small.jpg}" width="100"></td>
+                        <td>Pistache Cheese Cake</td>
+                        <td>Go nuts over this cheesecake</td>
+                        <td>$19.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/fruitpies/pecan-pie-small.jpg}" width="100"></td>
+                        <td>Pecan Pie</td>
+                        <td>Simple but good</td>
+                        <td>$14.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/Images/products/Seasonal/birthday-pie-small.jpg}" width="100"></td>
+                        <td>Birthday Pie</td>
+                        <td>A happy one!</td>
+                        <td>$25.95</td>
+                        <td>View details</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </main>
+    </div>
+</div>
+<footer>
+    <p><small>2023 Bethany's Pie Shop - All rights reserved</small></p>
+    <p>Our address is</p>
+    <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address>
+</footer>
+</body>
+</html>

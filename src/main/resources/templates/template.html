@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Bethany's Pie Shop</title>
+    <meta name="author" content="Bethany's Pie Shop">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link th:href="@{/styles.css}" rel="stylesheet">
+    <link rel="icon" type="image/png" th:href="@{/Images/favicon.png}">
+
+
+</head>
+<body>
+<div id="wrapper">
+    <header id="main-header">
+        <nav>
+            <img th:src="@{/Images/logos/bethany-horizontal-logo.png}" class="menu-logo"/>
+            Navigation Goes Here
+        </nav>
+    </header>
+    <div id="main-content">
+        <aside id="left-menu">
+            <img th:src="@{/Images/logos/bethany-badge-logo.png}" width="150px"/>
+            <header>
+                <p class="aside-header">Browse our pies</p>
+            </header>
+        </aside>
+        <main id="main">
+
+        </main>
+    </div>
+</div>
+<footer>
+    <p><small>2023 Bethany's Pie Shop - All rights reserved</small></p>
+    <p>Our address is</p>
+    <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address>
+</footer>
+</body>
+</html>
